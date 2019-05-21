@@ -33,7 +33,8 @@ def errorMessage(user):
                 "Oh no you killed artcbot",
                 "Your command is bad and you should feel bad",
                 "artcbot is taking a vacation :palm_tree:",
-                "Here lies artcbot. Viciously murdered by <@"+user+"> :rip:"]
+                "Here lies artcbot. Viciously murdered by <@"+user+"> :rip:", 
+                "@Palmer is the best"]
     return errors[random.randint(0, len(errors)-1)]
 
 
